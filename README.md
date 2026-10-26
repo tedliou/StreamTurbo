@@ -4,7 +4,7 @@
 [![Release](https://img.shields.io/github/v/release/tedliou/StreamTurbo)](https://github.com/tedliou/StreamTurbo/releases/latest)
 [![License](https://img.shields.io/github/license/tedliou/StreamTurbo)](LICENSE)
 
-> **English summary.** StreamTurbo is a Windows-only, real-time image-to-image Runtime for TouchDesigner. It receives video over NDI or Spout, regenerates every frame with a single sd-turbo step on an NVIDIA GPU (TensorRT-accelerated, 4 GB of VRAM or more), and sends the result back over NDI or Spout. Settings change live from a Web Panel, OSC or the bundled TouchDesigner component. Clone the [latest release](https://github.com/tedliou/StreamTurbo/releases/latest) and double-click `start.cmd`. It is a non-commercial, independent rewrite of [StreamDiffusion](https://github.com/cumulo-autumn/StreamDiffusion). See the [changelog](CHANGELOG.md) for what each release contains.
+> **English summary.** StreamTurbo is a Windows-only, real-time image-to-image Runtime for TouchDesigner. It receives video over NDI or Spout, regenerates every frame with a single sd-turbo step on an NVIDIA GPU (TensorRT-accelerated, 4 GB of VRAM or more), and sends the result back over NDI or Spout. Settings change live from a Web Panel, OSC or the bundled TouchDesigner component. Clone the [latest release](https://github.com/tedliou/StreamTurbo/releases/latest) and double-click `start.cmd`. It is a non-commercial, independent rewrite of [StreamDiffusion](https://github.com/cumulo-autumn/StreamDiffusion). See the [changelog](CHANGELOG.md) for what each release contains. A step-by-step guide in Traditional Chinese is on [vervecode.dev](https://vervecode.dev/ai/streamturbo/).
 
 StreamTurbo 是給 TouchDesigner 使用的即時影像生成 Runtime，只支援 Windows。它從 NDI 或 Spout 接收影像，在 NVIDIA 顯示卡上用 sd-turbo 單步重新生成每一格，再經由 NDI 或 Spout 送回去。
 
@@ -17,6 +17,8 @@ StreamTurbo 是給 TouchDesigner 使用的即時影像生成 Runtime，只支援
 - Low-VRAM Mode：4 GB 顯示卡（例如筆電的 RTX 3050 Laptop）也能使用 TensorRT
 
 各版本的變更見 [CHANGELOG.md](CHANGELOG.md)，下載與版本說明見 [Releases](https://github.com/tedliou/StreamTurbo/releases)。
+
+安裝步驟、Web Panel 的兩組解析度、Upscaler 實測與 4 GB 顯示卡的結果，整理在 [StreamTurbo 安裝與使用教學](https://vervecode.dev/ai/streamturbo/)。
 
 ## 需求
 
